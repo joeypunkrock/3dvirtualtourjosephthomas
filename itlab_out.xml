@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="">
+  <view fovmode="0" pannorth="247.5">
+    <start pan="0" fov="80" tilt="0"/>
+    <min pan="0" fov="5" tilt="-90"/>
+    <max pan="360" fov="120" tilt="90"/>
+  </view>
+  <userdata title="IT Lab" datetime="2015:03:23 17:03:48" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="0" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0x282828" bordercolor="0x000000" border="1" textcolor="0xffffff" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="Recyling is important to MMU with many different types of bins for recycling" target="" pan="-101.057" skinid="" url="" id="recycle" tilt="-14.7417"/>
+    <hotspot title="Not only does MMU offer many PC's to use but there are also numerous Mac labs avaiable" target="" pan="146.5" skinid="" url="" id="pc" tilt="3.58005"/>
+    <hotspot title="These labs provide tutors and students to work and learn but are also free to use by all students of MMU at any time" target="" pan="-54.5192" skinid="" url="" id="board" tilt="10.7269"/>
+    <hotspot title="There are many of these comuter labs available across all floors of the building with a large number of programs available for all reaches of digital technology" target="" pan="46.5837" skinid="" url="" id="computerooms" tilt="-1.77112"/>
+    <polyhotspot title="To Entrance Hall" target="_top" url="entrance.html" id="toentrance">
+      <vertex pan="-127.437" tilt="-25.6004"/>
+      <vertex pan="-131.261" tilt="-16.6801"/>
+      <vertex pan="-139.579" tilt="-12.6443"/>
+      <vertex pan="-140.412" tilt="-18.9485"/>
+      <vertex pan="-132.812" tilt="-27.6316"/>
+    </polyhotspot>
+  </hotspots>
+  <media/>
+  <input tile0url="images/itlabsphere_o_0.jpg" tile5url="images/itlabsphere_o_5.jpg" tilesize="572" tile4url="images/itlabsphere_o_4.jpg" tile3url="images/itlabsphere_o_3.jpg" tilescale="1.017482517482518" tile2url="images/itlabsphere_o_2.jpg" tile1url="images/itlabsphere_o_1.jpg"/>
+  <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>

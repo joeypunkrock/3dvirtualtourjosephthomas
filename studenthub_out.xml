@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="" hideabout="1">
+  <view fovmode="0" pannorth="292.5">
+    <start pan="0" fov="80" tilt="0"/>
+    <min pan="0" fov="5" tilt="-90"/>
+    <max pan="360" fov="120" tilt="90"/>
+  </view>
+  <userdata title="" datetime="2015:03:23 18:27:51" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="0" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0x282828" bordercolor="0x000000" border="1" textcolor="0xffffff" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="The main desk for the Student Hub with freindly staff allows you to get anything you need that the Hub can provide." target="" pan="-168.744" skinid="" url="" id="desk" tilt="3.13554"/>
+    <hotspot title="The Hub provides many information letters, employability leaflets and other types of material imortant for students and employability." target="" pan="82.399" skinid="" url="" id="letters" tilt="-6.20639"/>
+    <hotspot title="Clck here to go to the Student Hub Site." target="_blank" pan="149.531" skinid="" url="http://www.mmu.ac.uk/students/" id="website" tilt="5.44257"/>
+    <hotspot title="The Student Hub is available to help with a number of student reated matters. Some including accomodation,fees, Finance and bursaries, Council Tax exemption and complaints to name a few." target="" pan="-73.318" skinid="" url="" id="Point01" tilt="5.01279"/>
+    <polyhotspot title="To Groud Floor (East)" target="_top" url="groundfloor.html" id="togroundfloor">
+      <vertex pan="-29.1692" tilt="-13.0812"/>
+      <vertex pan="-35.5464" tilt="-10.5471"/>
+      <vertex pan="-49.0873" tilt="-21.7715"/>
+      <vertex pan="-41.1418" tilt="-24.8582"/>
+      <vertex pan="-41.1351" tilt="-25.0772"/>
+    </polyhotspot>
+  </hotspots>
+  <media/>
+  <input tile0url="images/studenthub_o_0.jpg" tile5url="images/studenthub_o_5.jpg" tilesize="572" tile4url="images/studenthub_o_4.jpg" tile3url="images/studenthub_o_3.jpg" tilescale="1.017482517482518" tile2url="images/studenthub_o_2.jpg" tile1url="images/studenthub_o_1.jpg"/>
+  <altinput tile0url="images/studenthub_o_800_0.jpg" screensize="1000" tile5url="images/studenthub_o_800_5.jpg" tilesize="800" tile4url="images/studenthub_o_800_4.jpg" tile3url="images/studenthub_o_800_3.jpg" tilescale="1.017482517482518" tile2url="images/studenthub_o_800_2.jpg" tile1url="images/studenthub_o_800_1.jpg"/>
+  <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>

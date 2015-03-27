@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MMU - Virtual Tour</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+	
+	<script src="js/pano2vr_player.js"></script>
+	<script src="js/skin.js"></script>
+	<script src="js/pano2vrgyro.js"></script>
+	
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head> 
+
+<body>
+
+ <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color:rgba(239, 241, 243, 1);"
+>
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="index.html" style="margin-top:-5px;"><img alt="Brand" src="img/mmu.gif" height="30" width="30"></a>
+                <a class="navbar-brand" href="index.html" style="margin-left:-25px;">MMU Virtual Tour</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    
+                    <li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Locations<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					<li>
+                        <a href="entrance.html">Entrance Hall (West)</a>
+                    </li>
+                    <li>
+                        <a href="groundfloor.html">Ground Floor (East)</a>
+                    </li>
+                    <li>
+                        <a href="studenthub.html">Student Hub</a>
+                    </li>
+                    <li>
+                        <a href="itlab.html">IT Lab</a>
+                    </li>
+                    <li>
+                        <a href="lecturetheatre.html">Lecture Theatre</a>
+                    </li>
+					<li>
+                        <a href="smalllec.html">Lecture Room</a>
+                    </li>
+					</ul>
+					</li>
+                    
+                    <li>
+                        <a href="map.html">Map</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+    
+
+       		 <!-- pano JavaScript -->
+
+	   <div id="container-fluid">
+	
+     <div class="row">
+	 
+   
+	<div id="pano" class="col-md-8 hidden-xs hidden-md hidden-sm">
+  
+		<script type="text/javascript">
+	
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("pano");
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			pano.readConfigUrl("entrance_out.xml");
+			// add gyroscope controller
+			gyro=new pano2vrGyro(pano,"pano");
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+		
+		</div>
+		<!-- /.pano -->
+		
+		
+		<div id="pano-md" class="col-md-8 visible-md-* hidden-sm hidden-xs hidden-lg">
+  
+		<script type="text/javascript">
+	
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("pano-md");
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			pano.readConfigUrl("entrance_out.xml");
+			// add gyroscope controller
+			gyro=new pano2vrGyro(pano,"pano-md");
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+		
+		</div>
+		<!-- /.pano-md -->
+		
+		<div id="pano-sm" class="col-md-8 visible-sm-* hidden-md hidden-xs hidden-lg">
+  
+		<script type="text/javascript">
+	
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("pano-sm");
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			pano.readConfigUrl("entrance_out.xml");
+			// add gyroscope controller
+			gyro=new pano2vrGyro(pano,"pano-sm");
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+		
+		</div>
+		<!-- /.pano-sm -->
+		
+		
+		<div id="pano-xs" class="col-md-8 visible-xs-* hidden-md hidden-lg hidden-sm">
+  
+		<script type="text/javascript">
+	
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("pano-xs");
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			pano.readConfigUrl("entrance_out.xml");
+			// add gyroscope controller
+			gyro=new pano2vrGyro(pano,"pano-xs");
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+		
+		</div>
+		<!-- /.pano-xs -->
+
+
+		
+	<div  id="img_description_under" class="col-md-4 hidden-sm hidden-xs">
+	<img src="img/entranceHeader.jpg" alt="Entrance" width="390" style="margin-left:-10px;">
+	<h2>Entrance Hall</h2>
+	<p>The main entrance to the building is located on Chester Street. With an administration office across from the door its ease of accessibility to locations around the building and information is prominent. The refectory is directly accessible from this part of the building as well as the elevators up to the other floors of the centre and west side of the building.</p>
+	<br/>
+	<span class="label label-primary">Click and drag to move around</span>
+	<span class="label label-primary">Highlight over elements to view information</span>
+	<span class="label label-primary">Click arrows to move to a different locations</span>
+	</div>
+	
+	
+	<div  id="img_description_under-sm" class="col-md-4 visible-sm-* hidden-xs hidden-md hidden-lg">
+	<h2>Entrance Hall</h2>
+	<p>The main entrance to the building is located on Chester Street. With an administration office across from the door its ease of accessibility to locations around the building and information is prominent. The refectory is directly accessible from this part of the building as well as the elevators up to the other floors of the centre and west side of the building.</p>
+	<span class="label label-primary">Move your device or drag image to move around</span>
+	<span class="label label-primary">Touch and hold elements to view information</span>
+	<span class="label label-primary">Touch arrows to move to a different locations</span>
+	</div>
+	
+	<div  id="img_description_under-xs" class="col-md-4 visible-xs-* hidden-sm hidden-md hidden-lg">
+	<h2>Entrance Hall</h2>
+	<p>The main entrance to the building is located on Chester Street. With an administration office across from the door its ease of accessibility to locations around the building and information is prominent. The refectory is directly accessible from this part of the building as well as the elevators up to the other floors of the centre and west side of the building.</p>
+	<span class="label label-primary">Move your device or drag image to move around</span>
+	<span class="label label-primary">Touch and hold elements to view information</span>
+	<span class="label label-primary">Touch arrows to move to a different locations</span>
+	</div>
+		
+
+		</div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <div class="row" id="placespano">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Other Locations.</h3>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="lecturetheatre.html">
+                <img class="img-rounded img-responsive portfolio-item" src="img/lec.jpg" width="500" height="600" alt="lecture theatre"> </a>
+                
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="groundfloor.html">
+                <img class="img-rounded img-responsive portfolio-item" src="img/freeit.jpg" width="500" height="600" alt="computers"> </a>
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="studenthub.html">
+                <img class="img-rounded img-responsive portfolio-item" src="img/hub.jpg" width="500" height="600" alt="student hub"> </a>
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="itlab.html">
+                <img class="img-rounded img-responsive portfolio-item" src="img/itlab.jpg" width="500" height="600" alt="it lab"> </a>
+                </a>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; joeythomas93.com 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

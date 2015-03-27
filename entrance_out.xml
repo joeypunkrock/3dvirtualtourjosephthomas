@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="">
+  <view fovmode="0" pannorth="0">
+    <start pan="200" fov="80" tilt="1.5"/>
+    <min pan="0" fov="5" tilt="-90"/>
+    <max pan="360" fov="120" tilt="90"/>
+  </view>
+  <userdata title="                                                               Entrance Hall" datetime="2015:01:09 14:45:52" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="-2.240390359741241" latitude="53.47160383880505"/>
+  <hotspots width="180" height="0" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0x282828" bordercolor="0x000000" border="1" textcolor="0xffffff" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="There are many printers and photocopiers al throughout the building that are linked to each individuals ID card for quick use." target="" pan="-10.518" skinid="" url="" id="printers" tilt="12.3278"/>
+    <hotspot title="These lifts go up four floors at the center of the building. These above floors mostly consist of IT Labs with both PC and Mac rooms available." target="" pan="-116.916" skinid="" url="" id="disabled" tilt="15.2671"/>
+    <hotspot title="Administration Office" target="" pan="-175.217" skinid="" url="" id="admin" tilt="7.89982"/>
+    <hotspot title="The refectory provides a wide choice of delicious food." target="" pan="128.926" skinid="" url="" id="refec" tilt="3.72349"/>
+    <hotspot title="The main doors to the building that lead out onto Chester Street." target="" pan="170.333" skinid="" url="" id="doors" tilt="4.683"/>
+    <hotspot title="The blue boxes allow students to drop off and submit their work." target="" pan="-147.493" skinid="" url="" id="dropbox" tilt="3.64856"/>
+    <polyhotspot title="To Lecture Theatre" target="_top" url="lecturetheatre.html" id="toLec">
+      <vertex pan="-37.6859" tilt="-13.2093"/>
+      <vertex pan="-33.3591" tilt="-4.58123"/>
+      <vertex pan="-37.4511" tilt="-3.23884"/>
+      <vertex pan="-42.0124" tilt="-3.37865"/>
+      <vertex pan="-46.2721" tilt="-11.4909"/>
+      <vertex pan="-42.4523" tilt="-12.7855"/>
+    </polyhotspot>
+    <polyhotspot title="To Second Floor IT Lab" target="_top" url="itlab.html" id="toIT">
+      <vertex pan="-120.78" tilt="-5.04452"/>
+      <vertex pan="-119.487" tilt="-7.83745"/>
+      <vertex pan="-123.344" tilt="-14.8715"/>
+      <vertex pan="-132.332" tilt="-14.1059"/>
+      <vertex pan="-128.229" tilt="-7.51893"/>
+    </polyhotspot>
+    <polyhotspot title="To ground floor (east)" target="_top" url="groundfloor.html" id="toeast">
+      <vertex pan="132.635" tilt="18.397"/>
+      <vertex pan="123.165" tilt="18.6673"/>
+      <vertex pan="123.164" tilt="12.7349"/>
+      <vertex pan="133.388" tilt="13.26"/>
+      <vertex pan="133.399" tilt="16.2005"/>
+    </polyhotspot>
+  </hotspots>
+  <media/>
+  <input tile0url="images/entrance_o_0.jpg" tile5url="images/entrance_o_5.jpg" tilesize="572" tile4url="images/entrance_o_4.jpg" tile3url="images/entrance_o_3.jpg" tilescale="1.017482517482518" tile2url="images/entrance_o_2.jpg" tile1url="images/entrance_o_1.jpg"/>
+  <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>

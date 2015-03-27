@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama id="node1">
+    <view fovmode="0" pannorth="0">
+      <start pan="242.5" fov="80" tilt="-2.5"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="                                                               " datetime="2015:01:09 14:36:52" description="" copyright="                                             " tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0x282828" bordercolor="0x000000" border="1" textcolor="0xffffff" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="MMU features the latest technology for teaching and presenting information to students to ensure the highest quality teaching is provided." target="" pan="179.762" skinid="" url="" id="tech" tilt="3.18239"/>
+      <hotspot title="This is the largest lecture hall in the John Dalton building, with many more smaller lecture rooms available throughout the rest of the building." target="" pan="-128.907" skinid="" url="" id="lec" tilt="-5.8546"/>
+      <hotspot title="There are multiple entrances to this lecture theatre with entrances on the ground floor and first floor." target="" pan="52.6823" skinid="" url="" id="entrances" tilt="18.354"/>
+      <hotspot title="Studets are offered the highest quality education possible with brilliant staff always available to help." target="" pan="109.16" skinid="" url="" id="bestEd" tilt="2.2913"/>
+      <polyhotspot title="To Ground Floor (East)" target="_top" url="groundfloor.html" id="toFreeit">
+        <vertex pan="-159.314" tilt="-4.26155"/>
+        <vertex pan="-158.814" tilt="-8.20068"/>
+        <vertex pan="-167.546" tilt="-9.264720000000001"/>
+        <vertex pan="-167.708" tilt="-4.37849"/>
+      </polyhotspot>
+      <polyhotspot title="To Entrance Hall" target="_top" url="entrance.html" id="toentrance">
+        <vertex pan="168.259" tilt="-4.19621"/>
+        <vertex pan="168.333" tilt="-9.685980000000001"/>
+        <vertex pan="158.658" tilt="-9.41441"/>
+        <vertex pan="158.786" tilt="-4.81992"/>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <input tile0url="images/lecture_o_0.jpg" tile5url="images/lecture_o_5.jpg" tilesize="685" tile4url="images/lecture_o_4.jpg" tile3url="images/lecture_o_3.jpg" tilescale="1.014598540145985" tile2url="images/lecture_o_2.jpg" tile1url="images/lecture_o_1.jpg"/>
+    <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+</tour>

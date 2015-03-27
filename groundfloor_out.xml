@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="">
+  <view fovmode="0" pannorth="225">
+    <start pan="39" fov="80" tilt="-5.5"/>
+    <min pan="0" fov="5" tilt="-90"/>
+    <max pan="360" fov="120" tilt="90"/>
+  </view>
+  <userdata title="" datetime="2015:03:23 17:37:00" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="0" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0x282828" bordercolor="0x000000" border="1" textcolor="0xffffff" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="These computers are free to use at any time and have a wide variety of programs installed for digital technology" target="" pan="-22.8769" skinid="" url="" id="computers" tilt="-3.37274"/>
+    <hotspot title="The building provides comfortable seating areas for socialisation and work " target="" pan="-152.181" skinid="" url="" id="lounge" tilt="-7.75003"/>
+    <hotspot title="These old main doors lead onto Oxford Road but were closed as to allow one main secure entrance on the other side of the building. However there are other entrances to get into the building" target="" pan="148.123" skinid="" url="" id="oldDoors" tilt="2.93023"/>
+    <hotspot title="Above this floor you will find tutor offices." target="" pan="21.6873" skinid="" url="" id="hallway" tilt="9.10608"/>
+    <polyhotspot title="To Student Hub" target="_top" url="studenthub.html" id="hub">
+      <vertex pan="119.889" tilt="-5.1151"/>
+      <vertex pan="113.023" tilt="0.7583760000000001"/>
+      <vertex pan="107.933" tilt="-2.49651"/>
+      <vertex pan="115.186" tilt="-8.984249999999999"/>
+    </polyhotspot>
+    <polyhotspot title="To entrance" target="_top" url="entrance.html" id="toentrance">
+      <vertex pan="56.3828" tilt="9.798400000000001"/>
+      <vertex pan="56.3025" tilt="5.61935"/>
+      <vertex pan="47.6024" tilt="5.14807"/>
+      <vertex pan="48.6677" tilt="9.457599999999999"/>
+    </polyhotspot>
+    <polyhotspot title="To Upper Floor Lecture Room" target="_top" url="smalllec.html" id="tolecsmall">
+      <vertex pan="-78.7948" tilt="-12.5346"/>
+      <vertex pan="-71.7137" tilt="-22.7845"/>
+      <vertex pan="-81.9276" tilt="-24.5625"/>
+      <vertex pan="-85.4148" tilt="-13.7739"/>
+    </polyhotspot>
+  </hotspots>
+  <media/>
+  <input tile0url="images/freeitNEW_o_0.jpg" tile5url="images/freeitNEW_o_5.jpg" tilesize="572" tile4url="images/freeitNEW_o_4.jpg" tile3url="images/freeitNEW_o_3.jpg" tilescale="1.017482517482518" tile2url="images/freeitNEW_o_2.jpg" tile1url="images/freeitNEW_o_1.jpg"/>
+  <altinput tile0url="images/freeitNEW_o_800_0.jpg" screensize="1000" tile5url="images/freeitNEW_o_800_5.jpg" tilesize="800" tile4url="images/freeitNEW_o_800_4.jpg" tile3url="images/freeitNEW_o_800_3.jpg" tilescale="1.017482517482518" tile2url="images/freeitNEW_o_800_2.jpg" tile1url="images/freeitNEW_o_800_1.jpg"/>
+  <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>

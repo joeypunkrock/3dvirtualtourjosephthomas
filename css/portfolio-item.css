@@ -1,0 +1,255 @@
+/*!
+ * Start Bootstrap - Portfolio Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/*CUSTOM*/
+
+
+
+.img_description {
+    position: absolute;
+    top: 200px;
+	height:200px;
+    width: 300px;
+	max-width:750px;
+    background-color:rgba(0, 0, 0, 0.5);
+	padding-left:10px;
+	margin-left:25px;
+}
+
+.img_description h2{
+	color:#FFF
+}
+
+.img_description p{
+	color:#FFF
+}
+
+.img_description-md {
+    position: relative;
+    top: -20px;
+	height:100px;
+    width: 560px;
+	max-width:750px;
+    background-color:rgba(0, 0, 0, 0);
+	padding-left:10px;
+	margin-left:15px;
+}
+
+.img_description-md h2{
+	color:rgba(40, 40, 40, 1);
+}
+
+.img_description-md p{
+	color:rgba(40, 40, 40, 1);
+}
+
+.img_description-sm {
+    position: absolute;
+    top: -10px;
+	height:200px;
+    width: 375px;
+	max-width:750px;
+	padding-left:10px;
+	margin-left:-5px;
+	color:rgba(40, 40, 40, 1);
+}
+
+.img_description-xs {
+    position: relative;
+    top: -40px;
+	height:auto;
+    width: 100%;
+	background-color:rgba(239, 241, 243, 1);
+	color:rgba(40, 40, 40, 1);
+	padding-left:10px;
+	margin-left:0px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+
+
+.greydiv{
+    background-color:rgba(40, 40, 40, 1);
+	width:500px;
+}
+
+#places{
+	position:relative;
+	top:-63px;
+	margin-left:10px;
+	margin-right:30px;
+	background-color:rgba(239, 241, 243, 1);
+	color:rgba(40, 40, 40, 1);
+}
+
+#places img:hover{
+	opacity: 0.7; 
+}
+
+#places-sm{
+	position:relative;
+	top:0px;
+	background-color:rgba(239, 241, 243, 1);
+	color:rgba(40, 40, 40, 1);
+}
+
+#places-sm img:hover{
+	opacity: 0.7; 
+}
+
+#places-xs{
+	position:relative;
+	top:-60px;
+}
+
+#places-xs img:hover{
+	opacity: 0.7; 
+}
+
+#placespano{
+	position:relative;
+	top:0px;
+	margin-right:-10px;
+}
+
+#placespano img:hover{
+	opacity: 0.7;
+}
+
+#img_description_right {
+    position: relative;
+    top:0px;
+	height:400px;
+    width: 350px;
+	max-width:750px;
+	background-color:rgba(239, 241, 243, 1);
+	padding-left:-10px;
+	color:rgba(40, 40, 40, 1);
+
+}
+
+#img_description_right h2{
+	font-size:29px;
+}
+
+
+#img_description_right-sm {
+    position: absolute;
+    top:270px;
+	height:270px;
+    width: 760px;
+	max-width:750px;
+	background-color:rgba(239, 241, 243, 1);
+	padding-left:-10px;
+	color:rgba(40, 40, 40, 1);
+
+}
+
+
+#img_description_right-xs {
+    position: relative;
+    top:-40px;
+	height:auto;
+    width: 100%;
+	max-width:750px;
+	background-color:rgba(239, 241, 243, 1);
+	color:rgba(40, 40, 40, 1);
+	padding-left:-10px;
+	padding-top:5px;
+}
+
+#pano{
+	position:relative;
+	height:460px;
+	width:790px;
+	margin-left:-15px;
+	padding-top:0.1px;
+}
+
+#pano-md{
+	position:relative;
+	height:460px;
+	width:590px;
+	margin-left:-15px;
+	padding-top:0.1px;
+}
+
+#pano-sm{
+	position:relative;
+	height:460px;
+	width:768px;
+	margin-left:-15px;
+	padding-top:0.1px;
+}
+
+
+#pano-xs{
+	position:relative;
+	height:250px;
+	width:100%;
+	margin-left:-15px;
+	padding-top:0.1px;
+}
+
+#pano-xs-mob{
+
+}
+
+#img_description_under {
+	position:relative;
+	height:460px;
+	width:390px;
+	background-color:rgba(239, 241, 243, 1);
+	color:rgba(40, 40, 40, 1);
+	padding-left:10px;
+	padding-top:0.1px;
+}
+
+
+
+#img_description_under-sm {
+	position:relative;
+	height:170px;
+	width:768px;
+	background-color:rgba(239, 241, 243, 1);
+	color:rgba(40, 40, 40, 1);
+	padding-left:10px;
+	padding-top:0.1px;
+}
+
+
+
+#img_description_under-xs {
+	position:relative;
+	height:auto;
+	width:auto;
+	background-color:rgba(239, 241, 243, 1);
+	color:rgba(40, 40, 40, 1);
+	padding-left:10px;
+	padding-top:0.1px;
+}
+
+
+
+.centered
+{
+    text-align:center;
+}
+
